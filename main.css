@@ -93,6 +93,7 @@ body#droplet small {
 body#droplet .droplet__header {
   font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 body#droplet .droplet__header img {
