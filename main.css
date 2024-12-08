@@ -1,0 +1,109 @@
+body#droplet {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: Oswald, sans-serif;
+  background: #fff;
+  color: #002147;
+}
+
+body#droplet .droplet__logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1em;
+  min-width: 100px;
+}
+
+body#droplet .droplet__logout:hover {
+  cursor: pointer;
+  color: #0d71bb;
+}
+
+body#droplet h4.droplet__welcome {
+  width: 100%;
+  text-align: left;
+}
+
+body#droplet .droplet__center-box {
+  width: 80%;
+  padding-top: 40px;
+  text-align: center;
+  position: relative;
+}
+
+body#droplet .droplet__button {
+  background: #e0e1e2;
+  border-radius: 4px;
+  padding: 20px 70px;
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  min-width: 200px;
+}
+
+body#droplet .droplet__button:hover {
+  background: #a3a3a3;
+  cursor: pointer;
+}
+
+body#droplet .droplet__download-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #143262;
+}
+
+body#droplet .droplet__download-box h1 {
+  width: 90%;
+  color: #fff;
+}
+
+body#droplet .droplet__download-box.droplet__download-box--other {
+  margin-top: 50px;
+  border-top: 1px solid #143262;
+}
+
+body#droplet .droplet__download-box.droplet__download-box--other .droplet__button {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+body#droplet .droplet__download {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+body#droplet h2.droplet__download__heading {
+  font-weight: 300;
+  padding: 0;
+  margin: 4px 0;
+  color: #fff;
+}
+
+body#droplet small {
+  font-weight: 300;
+  font-size: .8rem;
+}
+
+body#droplet .droplet__header {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+body#droplet .droplet__header img {
+  position: relative;
+  top: -29px;
+  left: -9px;
+}
+
+body#droplet .droplet__description {
+  color: #002147;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
